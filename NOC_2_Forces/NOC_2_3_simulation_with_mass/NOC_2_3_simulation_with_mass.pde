@@ -20,7 +20,7 @@ void draw()
 
     if (mousePressed)
     {
-      PVector wind = new PVector(0.4, 0);
+      PVector wind = new PVector(0.2, 0);
       b.applyForce(wind);
     }
 
